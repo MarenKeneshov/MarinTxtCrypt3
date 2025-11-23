@@ -20,4 +20,26 @@
 
 * Windows
 
-Это описание будет достаточно информативным для пользователей и разработчиков, которым нужно понять, как использовать твоё приложение.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### MarinTxtCrypt3
+
+A program for encrypting and decrypting text using the XOR algorithm and Base64 encoding. The interface is based on the Windows API. The application allows you to encrypt text using a user key and copy/paste encrypted or decrypted text via the clipboard.
+
+#### Main features:
+
+* **Text encryption and decryption:** Uses the XOR algorithm with a user-defined key.
+* **Base64 support:** Protected text is encoded in Base64 format to prevent data loss during transmission.
+* **Windows API-based interface:** A simple and intuitive window with buttons for encrypting/decrypting text, as well as copying and pasting text.
+* **Hotkeys:** Quick control using hotkeys Ctrl + A (select), Ctrl + C (copy), Ctrl + V (paste).
+* **UTF-8 support:** Text is automatically converted between UTF-8 and Unicode formats.
+
+#### How to use:
+
+1. Enter the text and key for encryption/decryption.
+2. Click “Encrypt / Decrypt” to process the text.
+3. Use the “Copy the result” and “Paste from the buffer” buttons to work with the clipboard.
+
+#### Requirements:
+
+* Windows
